@@ -82,7 +82,7 @@ h5 {
 /* Magazine*/
 
 .magazine {
-    background: url(assets/shelfnew.png) center no-repeat;
+    background: url(assets/shelfnew1.png) center no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -109,7 +109,7 @@ h5 {
     color: #000;
     text-decoration: none;
     font-size: 25px;
-    margin-left: 20%;
+    margin-top: 5%;
 }
 
 .btn-d {
@@ -141,7 +141,7 @@ header {
 }
 
 #logotop {
-    font-size: 20px;
+    font-size: 19px;
     font-family: 'Major Mono Display', monospace;
 }
 
@@ -154,6 +154,7 @@ header {
 
 #context {
     background: url(assets/contextnew.png) center no-repeat;
+    padding-bottom: 3%;
 }
 
 /* About us */
@@ -165,6 +166,7 @@ header {
 
 #about_us{
     background: url(assets/aboutus.png) center no-repeat;
+    padding-bottom: 5%;
 }
 
 #arthur {
@@ -178,4 +180,68 @@ header {
 
 .magazinep {
     padding-top: 3%;
+    padding-bottom: 10%;
+}
+
+
+/* Paddings */
+img {
+    padding-bottom: 3%;
+}
+
+
+.timeline_page {
+    padding-bottom: 3%;
+}
+
+
+.intro_subtitle {
+    text-align: center;
+}
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 768px)
+    and (orientation : landscape) {
+        .intro,
+        .history,
+        .timeline,
+        .magazine {
+            height: 150vh;
+        }
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+    and (orientation : landscape) {
+        .intro,
+        .history,
+        .timeline,
+        .magazine {
+            height: 150vh;
+        }
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+    and (orientation : landscape) {
+        .intro,
+        .history,
+        .timeline,
+        .magazine {
+            height: 180vh;
+        }
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+        .intro,
+        .history,
+        .timeline,
+        .magazine {
+            height: 120vh;
+        }
 }
